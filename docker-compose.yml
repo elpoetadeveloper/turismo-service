@@ -1,0 +1,10 @@
+services:
+  bxy_web_server_user_20:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: USER_20
+    ports:
+      - "8585:8080"
+    restart: always
+ 
