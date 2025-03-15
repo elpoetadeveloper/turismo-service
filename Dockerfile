@@ -23,5 +23,5 @@ ENV server.entryPoint=paquetes
 COPY project $JETTY_HOME
 COPY browxyLibs $JETTY_HOME/.m2/com/browxy
 
-RUN chown -R browxy_0:browxy /home/browxy
+RUN chown -R browxy_0:browxy /home/browxy/share
 USER browxy_0
