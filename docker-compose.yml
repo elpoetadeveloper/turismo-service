@@ -4,7 +4,5 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: USER_20
-    ports:
-      - "8585:8080"
     restart: always
  
