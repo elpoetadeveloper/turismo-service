@@ -2,19 +2,19 @@ FROM elpoeta/compiler-web-server-socket:1.0
 
 ENV JETTY_HOME=/home/browxy
 ENV BROWXY_LIB_DATA_SOURCE_USER=root
-ENV BROWXY_LIB_DATA_SOURCE_PASSWORD=DglvjduhuRbOMJkMslKTUPtyEYwSbQIQ
-ENV BROWXY_LIB_DATA_SOURCE_IP=gondola.proxy.rlwy.net
-ENV BROWXY_LIB_DATA_SOURCE_PORT=22256
+ENV BROWXY_LIB_DATA_SOURCE_PASSWORD=herHJumODKpetMwLgDfDmJlDTgfveskX
+ENV BROWXY_LIB_DATA_SOURCE_IP=switchback.proxy.rlwy.net
+ENV BROWXY_LIB_DATA_SOURCE_PORT=10931
 
 ENV socket.isSecure=false
 ENV project.id=USER_20
 ENV compiler.context=http
-ENV datasource.ip=gondola.proxy.rlwy.net
-ENV datasource.port=22256
+ENV datasource.ip=switchback.proxy.rlwy.net
+ENV datasource.port=10931
 ENV host.socket.port=9191
 ENV datasource.dbname=railway
 ENV datasource.embedded=false
-ENV datasource.password=DglvjduhuRbOMJkMslKTUPtyEYwSbQIQ
+ENV datasource.password=herHJumODKpetMwLgDfDmJlDTgfveskX
 ENV datasource.username=root
 ENV socket.keystorePath=
 ENV socket.keystorePassword=
